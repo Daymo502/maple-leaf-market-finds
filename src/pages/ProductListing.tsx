@@ -1,4 +1,3 @@
-
 import { useState, useEffect } from "react";
 import { useParams, useSearchParams } from "react-router-dom";
 import Layout from "@/components/Layout";
@@ -16,7 +15,7 @@ const allProducts = [
     image: "https://images.unsplash.com/photo-1618160702438-9b02ab6515c9",
     isCanadian: true,
     category: "produce",
-    weight: "1kg bag"
+    weight: "1kg bag",
   },
   {
     id: "2",
@@ -25,7 +24,7 @@ const allProducts = [
     image: "https://images.unsplash.com/photo-1506744038136-46273834b3fb",
     isCanadian: true,
     category: "dairy",
-    weight: "Dozen"
+    weight: "Dozen",
   },
   {
     id: "3",
@@ -34,7 +33,7 @@ const allProducts = [
     image: "https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9",
     isCanadian: true,
     category: "bakery",
-    weight: "500g loaf"
+    weight: "500g loaf",
   },
   {
     id: "4",
@@ -43,7 +42,7 @@ const allProducts = [
     image: "https://images.unsplash.com/photo-1472396961693-142e6e269027",
     isCanadian: false,
     category: "meat",
-    weight: "500g pack"
+    weight: "500g pack",
   },
   {
     id: "5",
@@ -52,7 +51,7 @@ const allProducts = [
     image: "https://images.unsplash.com/photo-1506744038136-46273834b3fb",
     isCanadian: true,
     category: "pantry",
-    weight: "250ml bottle"
+    weight: "250ml bottle",
   },
   {
     id: "6",
@@ -61,7 +60,7 @@ const allProducts = [
     image: "https://images.unsplash.com/photo-1517022812141-23620dba5c23",
     isCanadian: true,
     category: "dairy",
-    weight: "2L"
+    weight: "2L",
   },
   {
     id: "7",
@@ -70,7 +69,7 @@ const allProducts = [
     image: "https://images.unsplash.com/photo-1506744038136-46273834b3fb",
     isCanadian: true,
     category: "produce",
-    weight: "1kg bag"
+    weight: "1kg bag",
   },
   {
     id: "8",
@@ -79,15 +78,15 @@ const allProducts = [
     image: "https://images.unsplash.com/photo-1618160702438-9b02ab6515c9",
     isCanadian: false,
     category: "produce",
-    weight: "500g"
-  }
+    weight: "500g",
+  },
 ];
 
 const ProductListing = () => {
   const { categoryId } = useParams();
   const [searchParams] = useSearchParams();
   const canadianOnly = searchParams.get("canadian") === "true";
-  
+
   const [selectedCategory, setSelectedCategory] = useState(categoryId || "all");
   const [showCanadianOnly, setShowCanadianOnly] = useState(canadianOnly);
   const [searchQuery, setSearchQuery] = useState("");
@@ -96,41 +95,45 @@ const ProductListing = () => {
   // Update the filtered products when filters change
   useEffect(() => {
     let filtered = [...allProducts];
-    
+
     // Filter by category
     if (selectedCategory !== "all") {
-      filtered = filtered.filter(product => product.category === selectedCategory);
+      filtered = filtered.filter(
+        (product) => product.category === selectedCategory,
+      );
     }
-    
+
     // Filter by Canadian only
     if (showCanadianOnly) {
-      filtered = filtered.filter(product => product.isCanadian);
+      filtered = filtered.filter((product) => product.isCanadian);
     }
-    
+
     // Filter by search query
     if (searchQuery) {
       const query = searchQuery.toLowerCase();
-      filtered = filtered.filter(product => 
-        product.name.toLowerCase().includes(query) || 
-        product.category.toLowerCase().includes(query)
+      filtered = filtered.filter(
+        (product) =>
+          product.name.toLowerCase().includes(query) ||
+          product.category.toLowerCase().includes(query),
       );
     }
-    
+
     setFilteredProducts(filtered);
   }, [selectedCategory, showCanadianOnly, searchQuery]);
 
   // Update page title based on category
   useEffect(() => {
     let pageTitle = "All Products";
-    
+
     if (selectedCategory !== "all") {
-      pageTitle = selectedCategory.charAt(0).toUpperCase() + selectedCategory.slice(1);
+      pageTitle =
+        selectedCategory.charAt(0).toUpperCase() + selectedCategory.slice(1);
     }
-    
+
     if (showCanadianOnly) {
       pageTitle += " - Canadian Made";
     }
-    
+
     document.title = `${pageTitle} | Maple Leaf Market`;
   }, [selectedCategory, showCanadianOnly]);
 
@@ -139,52 +142,74 @@ const ProductListing = () => {
     if (selectedCategory === "all") {
       return showCanadianOnly ? "Canadian Products" : "All Products";
     } else {
-      const category = selectedCategory.charAt(0).toUpperCase() + selectedCategory.slice(1);
+      const category =
+        selectedCategory.charAt(0).toUpperCase() + selectedCategory.slice(1);
       return showCanadianOnly ? `Canadian ${category}` : category;
     }
   };
 
   return (
-    <Layout>
-      <div className="container mx-auto px-4 py-8">
-        <div className="flex flex-col md:flex-row gap-8">
+    <Layout data-oid="q1.dlm.">
+      <div className="container mx-auto px-4 py-8" data-oid="x3qv-qy">
+        <div className="flex flex-col md:flex-row gap-8" data-oid="4jqdt7a">
           {/* Sidebar Filters */}
-          <div className="md:w-1/4 lg:w-1/5">
-            <CategoryFilter 
+          <div className="md:w-1/4 lg:w-1/5" data-oid="g4mtt3a">
+            <CategoryFilter
               onCategoryChange={setSelectedCategory}
               onCanadianOnlyChange={setShowCanadianOnly}
               selectedCategory={selectedCategory}
               canadianOnly={showCanadianOnly}
+              data-oid="hsy3uhq"
             />
           </div>
-          
+
           {/* Product Grid */}
-          <div className="md:w-3/4 lg:w-4/5">
-            <div className="mb-6">
-              <h1 className="text-2xl md:text-3xl font-bold mb-4">{getHeadingText()}</h1>
-              <div className="relative">
-                <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 h-4 w-4 text-muted-foreground" />
-                <Input 
-                  type="search" 
-                  placeholder="Search products..." 
-                  className="pl-10 bg-muted" 
+          <div className="md:w-3/4 lg:w-4/5" data-oid="hwd2:x_">
+            <div className="mb-6" data-oid="j7m39u0">
+              <h1
+                className="text-2xl md:text-3xl font-bold mb-4"
+                data-oid=".ffzqzd"
+              >
+                {getHeadingText()}
+              </h1>
+              <div className="relative" data-oid="a_9h8am">
+                <Search
+                  className="absolute left-3 top-1/2 transform -translate-y-1/2 h-4 w-4 text-muted-foreground"
+                  data-oid="m-0btbj"
+                />
+
+                <Input
+                  type="search"
+                  placeholder="Search products..."
+                  className="pl-10 bg-muted"
                   value={searchQuery}
                   onChange={(e) => setSearchQuery(e.target.value)}
+                  data-oid="0u2xcy_"
                 />
               </div>
             </div>
-            
+
             {filteredProducts.length > 0 ? (
-              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
-                {filteredProducts.map(product => (
-                  <ProductCard key={product.id} {...product} />
+              <div
+                className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6"
+                data-oid=".q6kv4h"
+              >
+                {filteredProducts.map((product) => (
+                  <ProductCard
+                    key={product.id}
+                    {...product}
+                    data-oid="mgxyw6:"
+                  />
                 ))}
               </div>
             ) : (
-              <div className="text-center py-12">
-                <h3 className="text-lg font-medium mb-2">No products found</h3>
-                <p className="text-muted-foreground">
-                  Try adjusting your filters or search terms to find what you're looking for.
+              <div className="text-center py-12" data-oid="r9h.z1d">
+                <h3 className="text-lg font-medium mb-2" data-oid="r3iqsb6">
+                  No products found
+                </h3>
+                <p className="text-muted-foreground" data-oid="urxn7ze">
+                  Try adjusting your filters or search terms to find what you're
+                  looking for.
                 </p>
               </div>
             )}
