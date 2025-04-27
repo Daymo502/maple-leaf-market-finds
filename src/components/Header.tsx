@@ -13,87 +13,87 @@ const Header = () => {
   return (
     <header
       className="sticky top-0 z-50 w-full bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 border-b"
-      data-oid="62ywf5z"
+      data-oid="8j01rwm"
     >
       <div
         className="container flex h-16 items-center justify-between"
-        data-oid="2j54m4l"
+        data-oid="ptamaya"
       >
-        <div className="flex items-center gap-2 md:gap-4" data-oid="pb2v44-">
-          <Sheet data-oid="baw-sd-">
-            <SheetTrigger asChild data-oid="k57xu72">
+        <div className="flex items-center gap-2 md:gap-4" data-oid="n2:o6_c">
+          <Sheet data-oid="72z9bhn">
+            <SheetTrigger asChild data-oid="loqk6z:">
               <Button
                 variant="ghost"
                 size="icon"
                 className="md:hidden"
-                data-oid="l-60qj3"
+                data-oid="7xujijb"
               >
-                <Menu className="h-5 w-5" data-oid="wzm3bd8" />
-                <span className="sr-only" data-oid="_a1-zjq">
+                <Menu className="h-5 w-5" data-oid=":8s-i.g" />
+                <span className="sr-only" data-oid="44ixjjt">
                   Menu
                 </span>
               </Button>
             </SheetTrigger>
-            <SheetContent side="left" className="w-[300px]" data-oid="m61g:f:">
-              <div className="grid gap-6 py-6" data-oid="6.yyi1y">
-                <div className="grid gap-3" data-oid="0chcxp8">
+            <SheetContent side="left" className="w-[300px]" data-oid="9uie2rc">
+              <div className="grid gap-6 py-6" data-oid="zasrpsr">
+                <div className="grid gap-3" data-oid="82rx16s">
                   <Link
                     to="/"
                     className="text-lg font-semibold"
-                    data-oid="45nmy-7"
+                    data-oid="z1e4oan"
                   >
                     Home
                   </Link>
                   <Link
                     to="/all-products"
                     className="text-lg font-semibold"
-                    data-oid="s_1zpox"
+                    data-oid="-t.rcpl"
                   >
                     All Products
                   </Link>
                   <Link
                     to="/canadian-products"
                     className="text-lg font-semibold text-accent"
-                    data-oid="xe_ygtn"
+                    data-oid="a.e0r45"
                   >
                     Canadian Products
                   </Link>
-                  <div className="grid gap-1" data-oid="fxjghqa">
-                    <h3 className="font-semibold" data-oid="d3_v:6m">
+                  <div className="grid gap-1" data-oid="b_4h:cf">
+                    <h3 className="font-semibold" data-oid="dg2ftay">
                       Categories
                     </h3>
                     <Link
                       to="/category/produce"
                       className="text-sm"
-                      data-oid="rsjyrn1"
+                      data-oid="wx5:z1u"
                     >
                       Produce
                     </Link>
                     <Link
                       to="/category/dairy"
                       className="text-sm"
-                      data-oid="o88wutk"
+                      data-oid="zb1j06i"
                     >
                       Dairy
                     </Link>
                     <Link
                       to="/category/bakery"
                       className="text-sm"
-                      data-oid="1z3n9d6"
+                      data-oid="l64tngk"
                     >
                       Bakery
                     </Link>
                     <Link
                       to="/category/meat"
                       className="text-sm"
-                      data-oid="_s-2522"
+                      data-oid="d7jxc4r"
                     >
                       Meat & Poultry
                     </Link>
                     <Link
                       to="/category/pantry"
                       className="text-sm"
-                      data-oid="9udml7_"
+                      data-oid="xwozbje"
                     >
                       Pantry
                     </Link>
@@ -102,19 +102,19 @@ const Header = () => {
               </div>
             </SheetContent>
           </Sheet>
-          <Link to="/" className="flex items-center gap-2" data-oid="nrlfd5g">
-            <div className="relative w-8 h-8" data-oid="ve4sgv7">
+          <Link to="/" className="flex items-center gap-2" data-oid="usg5xdo">
+            <div className="relative w-8 h-8" data-oid="0sj6:vx">
               <div
                 className="absolute inset-0 bg-forest rounded-full flex items-center justify-center"
-                data-oid="5sv76zo"
+                data-oid="obq4sbs"
               >
                 <div
                   className="w-4 h-4 bg-maple rounded-sm rotate-45 transform"
-                  data-oid="0rfuwa8"
+                  data-oid="avqpjp8"
                 ></div>
               </div>
             </div>
-            <span className="font-display font-bold text-xl" data-oid="8:v6mey">
+            <span className="font-display font-bold text-xl" data-oid=":ipao3x">
               Maple Leaf Market
             </span>
           </Link>
@@ -122,39 +122,39 @@ const Header = () => {
 
         <div
           className="hidden md:flex items-center gap-6 text-sm"
-          data-oid="l33l6f-"
+          data-oid="8tymt8b"
         >
           <Link
             to="/"
             className="font-medium hover:text-forest"
-            data-oid="7g766wv"
+            data-oid="wm014rz"
           >
             Home
           </Link>
           <Link
             to="/all-products"
             className="font-medium hover:text-forest"
-            data-oid="2hd8o7_"
+            data-oid="b5ui71a"
           >
             All Products
           </Link>
           <Link
             to="/canadian-products"
             className="font-medium text-accent hover:text-accent/80"
-            data-oid="dz93un9"
+            data-oid="bz1v7lt"
           >
             Canadian Products
           </Link>
         </div>
 
-        <div className="flex items-center gap-4" data-oid="2-48w54">
+        <div className="flex items-center gap-4" data-oid="al.mh8c">
           <form
             className="hidden md:flex relative w-full max-w-sm items-center"
-            data-oid="e1vf5m4"
+            data-oid="0ldt5ir"
           >
             <Search
               className="absolute left-2.5 h-4 w-4 text-muted-foreground"
-              data-oid="enwk105"
+              data-oid="uh3.kqu"
             />
 
             <Input
@@ -163,7 +163,7 @@ const Header = () => {
               className="pl-8 rounded-full bg-muted"
               value={searchValue}
               onChange={(e) => setSearchValue(e.target.value)}
-              data-oid="-hqxlig"
+              data-oid=":yt2mbu"
             />
           </form>
 
@@ -171,31 +171,31 @@ const Header = () => {
             variant="ghost"
             size="icon"
             className="md:hidden"
-            data-oid="2ag7eld"
+            data-oid="xo:4iwl"
           >
-            <Search className="h-5 w-5" data-oid="ecvkm94" />
-            <span className="sr-only" data-oid="q54qj7.">
+            <Search className="h-5 w-5" data-oid="4buhotm" />
+            <span className="sr-only" data-oid="u0yv594">
               Search
             </span>
           </Button>
 
-          <Link to="/cart" data-oid="24otlhy">
+          <Link to="/cart" data-oid="ugoc-6h">
             <Button
               variant="ghost"
               size="icon"
               className="relative"
-              data-oid="hzia-9h"
+              data-oid="yjk3_8v"
             >
-              <ShoppingCart className="h-5 w-5" data-oid="qs5s48." />
+              <ShoppingCart className="h-5 w-5" data-oid="rh8r20q" />
               {cartItemCount > 0 && (
                 <span
                   className="absolute -top-1 -right-1 h-4 w-4 text-xs flex items-center justify-center bg-accent text-white rounded-full"
-                  data-oid="7-sc7tt"
+                  data-oid="6y_b_t9"
                 >
                   {cartItemCount}
                 </span>
               )}
-              <span className="sr-only" data-oid="jj7ui1g">
+              <span className="sr-only" data-oid="ax7vcc8">
                 Cart
               </span>
             </Button>

@@ -6,12 +6,12 @@ const Table = React.forwardRef<
   HTMLTableElement,
   React.HTMLAttributes<HTMLTableElement>
 >(({ className, ...props }, ref) => (
-  <div className="relative w-full overflow-auto" data-oid="ph7vmeb">
+  <div className="relative w-full overflow-auto" data-oid="mk1ch1b">
     <table
       ref={ref}
       className={cn("w-full caption-bottom text-sm", className)}
       {...props}
-      data-oid="f2p0eu."
+      data-oid="stjljoz"
     />
   </div>
 ));
@@ -25,7 +25,7 @@ const TableHeader = React.forwardRef<
     ref={ref}
     className={cn("[&_tr]:border-b", className)}
     {...props}
-    data-oid="9bm:up-"
+    data-oid="b7-sxd-"
   />
 ));
 TableHeader.displayName = "TableHeader";
@@ -38,7 +38,7 @@ const TableBody = React.forwardRef<
     ref={ref}
     className={cn("[&_tr:last-child]:border-0", className)}
     {...props}
-    data-oid="gms2lux"
+    data-oid=":w7t8wk"
   />
 ));
 TableBody.displayName = "TableBody";
@@ -54,7 +54,7 @@ const TableFooter = React.forwardRef<
       className,
     )}
     {...props}
-    data-oid="cxe.fjq"
+    data-oid="22s1p69"
   />
 ));
 TableFooter.displayName = "TableFooter";
@@ -70,7 +70,7 @@ const TableRow = React.forwardRef<
       className,
     )}
     {...props}
-    data-oid="dkzxlp9"
+    data-oid="epwwvn:"
   />
 ));
 TableRow.displayName = "TableRow";
@@ -86,7 +86,7 @@ const TableHead = React.forwardRef<
       className,
     )}
     {...props}
-    data-oid="-8tx1p1"
+    data-oid="u51zmez"
   />
 ));
 TableHead.displayName = "TableHead";
@@ -99,7 +99,7 @@ const TableCell = React.forwardRef<
     ref={ref}
     className={cn("p-4 align-middle [&:has([role=checkbox])]:pr-0", className)}
     {...props}
-    data-oid="uiza31u"
+    data-oid="qu815ht"
   />
 ));
 TableCell.displayName = "TableCell";
@@ -112,7 +112,7 @@ const TableCaption = React.forwardRef<
     ref={ref}
     className={cn("mt-4 text-sm text-muted-foreground", className)}
     {...props}
-    data-oid="1tjos.t"
+    data-oid="lk32f4e"
   />
 ));
 TableCaption.displayName = "TableCaption";

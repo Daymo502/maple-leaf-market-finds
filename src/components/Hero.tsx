@@ -4,47 +4,47 @@ import { ArrowRight } from "lucide-react";
 
 const Hero = () => {
   return (
-    <div className="relative overflow-hidden bg-muted" data-oid="70cbs1s">
-      <div className="container mx-auto px-4 py-16 md:py-24" data-oid="zvskg_h">
+    <div className="relative overflow-hidden bg-muted" data-oid="ca3gpig">
+      <div className="container mx-auto px-4 py-16 md:py-24" data-oid="8tnz:1g">
         <div
           className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center"
-          data-oid="s3vr457"
+          data-oid="u-epp_m"
         >
-          <div className="space-y-6 animate-fade-in" data-oid="arzgcry">
-            <div className="inline-block" data-oid="v24a6a6">
-              <div className="canadian-badge" data-oid="kt_cr3j">
+          <div className="space-y-6 animate-fade-in" data-oid="vornbsu">
+            <div className="inline-block" data-oid="mtsg-dj">
+              <div className="canadian-badge" data-oid="8d90qls">
                 <div
                   className="w-3 h-3 bg-accent rounded-sm rotate-45 transform"
-                  data-oid="7jics:j"
+                  data-oid="iuiswes"
                 ></div>
-                <span data-oid="9:l1w24">Proudly Canadian</span>
+                <span data-oid="b_09k:5">Proudly Canadian</span>
               </div>
             </div>
             <h1
               className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight"
-              data-oid="3rtl1ju"
+              data-oid="vgg58-n"
             >
-              Fresh & Local, <br data-oid="4zx46z9" />
-              <span className="text-forest" data-oid="47ve_w5">
+              Fresh & Local, <br data-oid="x8piro4" />
+              <span className="text-forest" data-oid="e315d_y">
                 Delivered to You
               </span>
             </h1>
             <p
               className="text-lg text-muted-foreground max-w-md"
-              data-oid="lnmv._-"
+              data-oid="57q7huj"
             >
               Discover the best Canadian-made grocery products, sourced from
               local farmers and producers across the country.
             </p>
-            <div className="flex flex-col sm:flex-row gap-4" data-oid="8y:uis7">
-              <Button asChild size="lg" className="gap-2" data-oid="j3bifam">
-                <Link to="/all-products" data-oid="r_4n6wv">
+            <div className="flex flex-col sm:flex-row gap-4" data-oid="g.2p.m5">
+              <Button asChild size="lg" className="gap-2" data-oid="_1k:3qe">
+                <Link to="/all-products" data-oid="9e3pmi1">
                   Shop Now
-                  <ArrowRight className="h-4 w-4" data-oid="6snvh:n" />
+                  <ArrowRight className="h-4 w-4" data-oid="y45tqvf" />
                 </Link>
               </Button>
-              <Button asChild variant="outline" size="lg" data-oid="-0xrc4b">
-                <Link to="/canadian-products" data-oid="0eoi:nc">
+              <Button asChild variant="outline" size="lg" data-oid="483w.e0">
+                <Link to="/canadian-products" data-oid="ddzo2e2">
                   Explore Canadian Products
                 </Link>
               </Button>
@@ -52,20 +52,20 @@ const Hero = () => {
           </div>
           <div
             className="relative h-64 md:h-auto rounded-xl overflow-hidden animate-scale-in"
-            data-oid="h.qj:wh"
+            data-oid="r9d7h12"
           >
             <img
               src="https://images.unsplash.com/photo-1506744038136-46273834b3fb"
               alt="Canadian landscape with farm"
               className="object-cover w-full h-full rounded-xl"
-              data-oid="irx7967"
+              data-oid="6wmkf1."
             />
 
             <div
               className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 to-transparent p-4"
-              data-oid="08hxbgk"
+              data-oid="kfo9711"
             >
-              <p className="text-white text-sm" data-oid="ote51:6">
+              <p className="text-white text-sm" data-oid="f96x1oy">
                 Supporting local farmers and producers across Canada
               </p>
             </div>
