@@ -39,39 +39,39 @@ const ProductCard = ({
       initial={{ opacity: 0, scale: 0.95 }}
       animate={{ opacity: 1, scale: 1 }}
       transition={{ duration: 0.3 }}
-      data-oid="9gselys"
+      data-oid="u3t.ckf"
     >
-      <Link to={`/product/${id}`} className="block h-full" data-oid="oqex8ku">
-        <div className="product-card h-full flex flex-col" data-oid="crejobc">
-          <div className="relative" data-oid="wxn799k">
+      <Link to={`/product/${id}`} className="block h-full" data-oid="4rz17o9">
+        <div className="product-card h-full flex flex-col" data-oid="b14d6-0">
+          <div className="relative" data-oid="6qeed7g">
             <img
               src={image}
               alt={name}
               className="product-image"
-              data-oid="5d48ol8"
+              data-oid="898g3ir"
             />
 
             {isCanadian && (
-              <div className="absolute top-2 right-2" data-oid="yefdhkj">
-                <CanadianBadge size="sm" data-oid="_kmm1g5" />
+              <div className="absolute top-2 right-2" data-oid="jln2.o1">
+                <CanadianBadge size="sm" data-oid="-u.w.i1" />
               </div>
             )}
           </div>
-          <div className="p-4 flex flex-col flex-grow" data-oid="bjol5.x">
-            <div className="mb-2" data-oid="patt9cl">
-              <p className="text-xs text-muted-foreground" data-oid="uz9u:a5">
+          <div className="p-4 flex flex-col flex-grow" data-oid="elry4eh">
+            <div className="mb-2" data-oid="xppskl_">
+              <p className="text-xs text-muted-foreground" data-oid="gj:if3a">
                 {category}
               </p>
               <h3
                 className="font-medium text-sm sm:text-base line-clamp-2"
-                data-oid="m04_as_"
+                data-oid="wf_6b30"
               >
                 {name}
               </h3>
               {weight && (
                 <p
                   className="text-xs text-muted-foreground mt-1"
-                  data-oid="09_f720"
+                  data-oid="3prahw4"
                 >
                   {weight}
                 </p>
@@ -79,9 +79,9 @@ const ProductCard = ({
             </div>
             <div
               className="flex items-center justify-between mt-auto pt-2"
-              data-oid="vsu:o-9"
+              data-oid="0blng26"
             >
-              <p className="font-semibold" data-oid="zb-cq5n">
+              <p className="font-semibold" data-oid="2hmvgo-">
                 ${price.toFixed(2)}
               </p>
               <Button
@@ -89,10 +89,10 @@ const ProductCard = ({
                 variant="ghost"
                 className="rounded-full h-8 w-8 p-0"
                 onClick={handleAddToCart}
-                data-oid="9.7zgi7"
+                data-oid="c-6myry"
               >
-                <ShoppingCart className="h-4 w-4" data-oid="fgm7vnh" />
-                <span className="sr-only" data-oid="gmfe6n.">
+                <ShoppingCart className="h-4 w-4" data-oid="gpw:d.9" />
+                <span className="sr-only" data-oid="xy1izjt">
                   Add to cart
                 </span>
               </Button>
