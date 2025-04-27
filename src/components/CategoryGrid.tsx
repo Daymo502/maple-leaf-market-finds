@@ -37,14 +37,14 @@ const categories = [
 
 const CategoryGrid = () => {
   return (
-    <section className="py-12" data-oid="yfayr64">
-      <div className="container mx-auto px-4" data-oid="ipd9qo8">
-        <h2 className="text-2xl md:text-3xl font-bold mb-8" data-oid="vo1f5._">
+    <section className="py-12" data-oid="s2u3wei">
+      <div className="container mx-auto px-4" data-oid="fygbjfb">
+        <h2 className="text-2xl md:text-3xl font-bold mb-8" data-oid="fcyjpzx">
           Shop by Category
         </h2>
         <div
           className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4"
-          data-oid="rbb7rxs"
+          data-oid="-n9aifc"
         >
           {categories.map((category, index) => (
             <motion.div
@@ -52,35 +52,35 @@ const CategoryGrid = () => {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: index * 0.1 }}
-              data-oid="mimopo."
+              data-oid="ddxlpe_"
             >
               <Link
                 to={`/category/${category.id}`}
                 className="block h-full"
-                data-oid="0p428lg"
+                data-oid="dz20qp:"
               >
                 <div
                   className="product-card h-full flex flex-col overflow-hidden"
-                  data-oid="_3fn27b"
+                  data-oid="xwk819z"
                 >
                   <div
                     className="aspect-square overflow-hidden"
-                    data-oid="73mi5or"
+                    data-oid="sfrfbdq"
                   >
                     <img
                       src={category.image}
                       alt={category.name}
                       className="h-full w-full object-cover transition-transform duration-300 hover:scale-105"
-                      data-oid="29u0640"
+                      data-oid="zzu:xfq"
                     />
                   </div>
-                  <div className="p-4 text-center" data-oid="vvwh_xp">
-                    <h3 className="font-semibold" data-oid="qg7efgk">
+                  <div className="p-4 text-center" data-oid="vrrcuod">
+                    <h3 className="font-semibold" data-oid="ajaphqo">
                       {category.name}
                     </h3>
                     <p
                       className="text-sm text-muted-foreground mt-1 hidden md:block"
-                      data-oid="nda1fc_"
+                      data-oid="a775qfe"
                     >
                       {category.description}
                     </p>

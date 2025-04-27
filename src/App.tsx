@@ -10,41 +10,41 @@ import NotFound from "./pages/NotFound";
 const queryClient = new QueryClient();
 
 const App = () => (
-  <QueryClientProvider client={queryClient} data-oid="oyrtyc-">
-    <TooltipProvider data-oid="wcoub0m">
-      <Toaster data-oid="rpg6lb4" />
-      <Sonner data-oid="mgy3h4a" />
-      <BrowserRouter data-oid="6n---q3">
-        <Routes data-oid="w:q0g..">
+  <QueryClientProvider client={queryClient} data-oid="evo2v42">
+    <TooltipProvider data-oid="mrj.lal">
+      <Toaster data-oid="b66gbgr" />
+      <Sonner data-oid=":xhehh0" />
+      <BrowserRouter data-oid="ntk4xxg">
+        <Routes data-oid="p-usgea">
           <Route
             path="/"
-            element={<Index data-oid="1d2guxa" />}
-            data-oid="htr6u8m"
+            element={<Index data-oid="vby8al5" />}
+            data-oid="3y4o5qy"
           />
 
           <Route
             path="/all-products"
-            element={<ProductListing data-oid="ju::.ya" />}
-            data-oid="4gkgr8q"
+            element={<ProductListing data-oid="g8b9irn" />}
+            data-oid="-rnu5dh"
           />
 
           <Route
             path="/canadian-products"
-            element={<ProductListing data-oid="2-0:v:0" />}
-            data-oid="0_khdpc"
+            element={<ProductListing data-oid="m0-xv8w" />}
+            data-oid="e24::8v"
           />
 
           <Route
             path="/category/:categoryId"
-            element={<ProductListing data-oid="puknm_f" />}
-            data-oid="ukbtgwl"
+            element={<ProductListing data-oid="75e6ok4" />}
+            data-oid="umyykx_"
           />
 
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route
             path="*"
-            element={<NotFound data-oid="s3mydwc" />}
-            data-oid="la6_qzo"
+            element={<NotFound data-oid="ekfk3h7" />}
+            data-oid="q91aq6e"
           />
         </Routes>
       </BrowserRouter>

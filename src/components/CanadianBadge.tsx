@@ -26,26 +26,26 @@ const CanadianBadge = ({
         size === "lg" ? "px-3 py-1.5 text-sm" : "",
         className,
       )}
-      data-oid="7fbd97f"
+      data-oid="ja0yocm"
     >
       <div
         className="inline-block w-3 h-3 bg-accent rounded-sm rotate-45 transform"
-        data-oid="9whe6mh"
+        data-oid="_js7:6k"
       ></div>
-      <span data-oid="7.g9tw4">Made in Canada</span>
+      <span data-oid="8.a2nnd">Made in Canada</span>
     </div>
   );
 
   if (!showTooltip) return badge;
 
   return (
-    <TooltipProvider data-oid="6752k28">
-      <Tooltip data-oid="0_m9j.d">
-        <TooltipTrigger asChild data-oid="4.3aakx">
+    <TooltipProvider data-oid="6:zr3g-">
+      <Tooltip data-oid="wo2rysm">
+        <TooltipTrigger asChild data-oid="jfzr-7_">
           {badge}
         </TooltipTrigger>
-        <TooltipContent data-oid="8.av:5r">
-          <p className="text-xs" data-oid="orwduoj">
+        <TooltipContent data-oid="42lnkyv">
+          <p className="text-xs" data-oid="r1oko8l">
             This product is made in Canada with at least 51% Canadian
             ingredients.
           </p>

@@ -149,33 +149,33 @@ const ProductListing = () => {
   };
 
   return (
-    <Layout data-oid="_ax-kw4">
-      <div className="container mx-auto px-4 py-8" data-oid="rzxso14">
-        <div className="flex flex-col md:flex-row gap-8" data-oid="1c7gnr6">
+    <Layout data-oid="1f0pbj-">
+      <div className="container mx-auto px-4 py-8" data-oid="8o0:kr2">
+        <div className="flex flex-col md:flex-row gap-8" data-oid="226lt_s">
           {/* Sidebar Filters */}
-          <div className="md:w-1/4 lg:w-1/5" data-oid="aw5j.fi">
+          <div className="md:w-1/4 lg:w-1/5" data-oid="06xyri3">
             <CategoryFilter
               onCategoryChange={setSelectedCategory}
               onCanadianOnlyChange={setShowCanadianOnly}
               selectedCategory={selectedCategory}
               canadianOnly={showCanadianOnly}
-              data-oid="m3qn1vd"
+              data-oid="ptpyg6q"
             />
           </div>
 
           {/* Product Grid */}
-          <div className="md:w-3/4 lg:w-4/5" data-oid="s0mt.95">
-            <div className="mb-6" data-oid="gbuopj7">
+          <div className="md:w-3/4 lg:w-4/5" data-oid="-socpz:">
+            <div className="mb-6" data-oid=":abzrtf">
               <h1
                 className="text-2xl md:text-3xl font-bold mb-4"
-                data-oid="gne7qm-"
+                data-oid="fageh.j"
               >
                 {getHeadingText()}
               </h1>
-              <div className="relative" data-oid="hn91vog">
+              <div className="relative" data-oid="e.dv:.g">
                 <Search
                   className="absolute left-3 top-1/2 transform -translate-y-1/2 h-4 w-4 text-muted-foreground"
-                  data-oid="dvwjcy8"
+                  data-oid="opyhfb3"
                 />
 
                 <Input
@@ -184,7 +184,7 @@ const ProductListing = () => {
                   className="pl-10 bg-muted"
                   value={searchQuery}
                   onChange={(e) => setSearchQuery(e.target.value)}
-                  data-oid="7w4xugw"
+                  data-oid="3bmv3y."
                 />
               </div>
             </div>
@@ -192,22 +192,22 @@ const ProductListing = () => {
             {filteredProducts.length > 0 ? (
               <div
                 className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6"
-                data-oid="g_gwl7b"
+                data-oid="gsmbriy"
               >
                 {filteredProducts.map((product) => (
                   <ProductCard
                     key={product.id}
                     {...product}
-                    data-oid="dna38wu"
+                    data-oid="0rl:r6m"
                   />
                 ))}
               </div>
             ) : (
-              <div className="text-center py-12" data-oid="pyegi9f">
-                <h3 className="text-lg font-medium mb-2" data-oid="qwjpi0_">
+              <div className="text-center py-12" data-oid="dt02dd_">
+                <h3 className="text-lg font-medium mb-2" data-oid="1w61gle">
                   No products found
                 </h3>
-                <p className="text-muted-foreground" data-oid="o13_n9w">
+                <p className="text-muted-foreground" data-oid="elag0:b">
                   Try adjusting your filters or search terms to find what you're
                   looking for.
                 </p>

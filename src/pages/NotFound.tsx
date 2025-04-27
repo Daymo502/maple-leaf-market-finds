@@ -14,19 +14,19 @@ const NotFound = () => {
   return (
     <div
       className="min-h-screen flex items-center justify-center bg-gray-100"
-      data-oid="wreb_8t"
+      data-oid="rpgcfon"
     >
-      <div className="text-center" data-oid="cssn122">
-        <h1 className="text-4xl font-bold mb-4" data-oid="s0zuves">
+      <div className="text-center" data-oid="6qqyras">
+        <h1 className="text-4xl font-bold mb-4" data-oid="krfwi8o">
           404
         </h1>
-        <p className="text-xl text-gray-600 mb-4" data-oid="gd87pqa">
+        <p className="text-xl text-gray-600 mb-4" data-oid="kef_z:6">
           Oops! Page not found
         </p>
         <a
           href="/"
           className="text-blue-500 hover:text-blue-700 underline"
-          data-oid="ccvd5eu"
+          data-oid="qvvjy3-"
         >
           Return to Home
         </a>

@@ -45,7 +45,7 @@ const ChartContainer = React.forwardRef<
   const chartId = `chart-${id || uniqueId.replace(/:/g, "")}`;
 
   return (
-    <ChartContext.Provider value={{ config }} data-oid="w.u1cul">
+    <ChartContext.Provider value={{ config }} data-oid="uhab:uz">
       <div
         data-chart={chartId}
         ref={ref}
@@ -54,10 +54,10 @@ const ChartContainer = React.forwardRef<
           className,
         )}
         {...props}
-        data-oid="3go1wn3"
+        data-oid="0jsmx2a"
       >
-        <ChartStyle id={chartId} config={config} data-oid="qu3a-k_" />
-        <RechartsPrimitive.ResponsiveContainer data-oid="woltw5-">
+        <ChartStyle id={chartId} config={config} data-oid="lsvtlu1" />
+        <RechartsPrimitive.ResponsiveContainer data-oid="z2tp3cz">
           {children}
         </RechartsPrimitive.ResponsiveContainer>
       </div>
@@ -95,7 +95,7 @@ ${colorConfig
           )
           .join("\n"),
       }}
-      data-oid="svx5pap"
+      data-oid="1:5t3u1"
     />
   );
 };
@@ -148,7 +148,7 @@ const ChartTooltipContent = React.forwardRef<
 
       if (labelFormatter) {
         return (
-          <div className={cn("font-medium", labelClassName)} data-oid="3prroj3">
+          <div className={cn("font-medium", labelClassName)} data-oid="w9t04u_">
             {labelFormatter(value, payload)}
           </div>
         );
@@ -159,7 +159,7 @@ const ChartTooltipContent = React.forwardRef<
       }
 
       return (
-        <div className={cn("font-medium", labelClassName)} data-oid="9r52_32">
+        <div className={cn("font-medium", labelClassName)} data-oid="refnsqe">
           {value}
         </div>
       );
@@ -186,10 +186,10 @@ const ChartTooltipContent = React.forwardRef<
           "grid min-w-[8rem] items-start gap-1.5 rounded-lg border border-border/50 bg-background px-2.5 py-1.5 text-xs shadow-xl",
           className,
         )}
-        data-oid="e:pl4-z"
+        data-oid="mwhx37b"
       >
         {!nestLabel ? tooltipLabel : null}
-        <div className="grid gap-1.5" data-oid="3i3cxvv">
+        <div className="grid gap-1.5" data-oid="zxe6j7z">
           {payload.map((item, index) => {
             const key = `${nameKey || item.name || item.dataKey || "value"}`;
             const itemConfig = getPayloadConfigFromPayload(config, item, key);
@@ -202,14 +202,14 @@ const ChartTooltipContent = React.forwardRef<
                   "flex w-full flex-wrap items-stretch gap-2 [&>svg]:h-2.5 [&>svg]:w-2.5 [&>svg]:text-muted-foreground",
                   indicator === "dot" && "items-center",
                 )}
-                data-oid="-5-9_kt"
+                data-oid="7:3dflo"
               >
                 {formatter && item?.value !== undefined && item.name ? (
                   formatter(item.value, item.name, item, index, item.payload)
                 ) : (
                   <>
                     {itemConfig?.icon ? (
-                      <itemConfig.icon data-oid="-dx2p2p" />
+                      <itemConfig.icon data-oid="vwi_kcq" />
                     ) : (
                       !hideIndicator && (
                         <div
@@ -229,7 +229,7 @@ const ChartTooltipContent = React.forwardRef<
                               "--color-border": indicatorColor,
                             } as React.CSSProperties
                           }
-                          data-oid="99wrljn"
+                          data-oid="x6s7b9z"
                         />
                       )
                     )}
@@ -238,13 +238,13 @@ const ChartTooltipContent = React.forwardRef<
                         "flex flex-1 justify-between leading-none",
                         nestLabel ? "items-end" : "items-center",
                       )}
-                      data-oid="x15esxx"
+                      data-oid=".i2p5os"
                     >
-                      <div className="grid gap-1.5" data-oid="uw88vyh">
+                      <div className="grid gap-1.5" data-oid="jyafda6">
                         {nestLabel ? tooltipLabel : null}
                         <span
                           className="text-muted-foreground"
-                          data-oid="bqx22kn"
+                          data-oid="e:2--il"
                         >
                           {itemConfig?.label || item.name}
                         </span>
@@ -252,7 +252,7 @@ const ChartTooltipContent = React.forwardRef<
                       {item.value && (
                         <span
                           className="font-mono font-medium tabular-nums text-foreground"
-                          data-oid="q.ik28i"
+                          data-oid="rg94fz-"
                         >
                           {item.value.toLocaleString()}
                         </span>
@@ -298,7 +298,7 @@ const ChartLegendContent = React.forwardRef<
           verticalAlign === "top" ? "pb-3" : "pt-3",
           className,
         )}
-        data-oid="c5021q9"
+        data-oid="gxh6ngk"
       >
         {payload.map((item) => {
           const key = `${nameKey || item.dataKey || "value"}`;
@@ -310,17 +310,17 @@ const ChartLegendContent = React.forwardRef<
               className={cn(
                 "flex items-center gap-1.5 [&>svg]:h-3 [&>svg]:w-3 [&>svg]:text-muted-foreground",
               )}
-              data-oid="qop6tkz"
+              data-oid="05e7.cf"
             >
               {itemConfig?.icon && !hideIcon ? (
-                <itemConfig.icon data-oid="lvh5wtd" />
+                <itemConfig.icon data-oid="bnb0icv" />
               ) : (
                 <div
                   className="h-2 w-2 shrink-0 rounded-[2px]"
                   style={{
                     backgroundColor: item.color,
                   }}
-                  data-oid="i8ocbe1"
+                  data-oid="gob97ig"
                 />
               )}
               {itemConfig?.label}
