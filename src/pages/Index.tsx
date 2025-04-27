@@ -12,23 +12,23 @@ const Index = () => {
   }, []);
 
   return (
-    <Layout data-oid="0lxhrbf">
-      <Hero data-oid="-y-ep_o" />
-      <CategoryGrid data-oid="nsyu_sc" />
-      <FeaturedProducts data-oid="dq639rr" />
-      <CanadianProducer data-oid="7grmp48" />
-      <section className="py-12 container mx-auto px-4" data-oid="-o:whuk">
+    <Layout data-oid="fb0bngv">
+      <Hero data-oid="i0-hq:4" />
+      <CategoryGrid data-oid="8:n1rnh" />
+      <FeaturedProducts data-oid="-f:91y2" />
+      <CanadianProducer data-oid="v6lgqq2" />
+      <section className="py-12 container mx-auto px-4" data-oid=":7sm5g5">
         <div
           className="grid grid-cols-1 md:grid-cols-3 gap-8"
-          data-oid=":n68._4"
+          data-oid="_9k2iyr"
         >
           <div
             className="bg-forest/5 rounded-xl p-6 flex flex-col items-center text-center"
-            data-oid=":fh26el"
+            data-oid="nnyq17e"
           >
             <div
               className="h-12 w-12 bg-forest/10 rounded-full flex items-center justify-center mb-4"
-              data-oid="5yet9nm"
+              data-oid="rqk2eai"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -41,34 +41,34 @@ const Index = () => {
                 strokeLinecap="round"
                 strokeLinejoin="round"
                 className="text-forest"
-                data-oid="sdx702v"
+                data-oid=".vhks31"
               >
-                <path d="M12 10V2" data-oid="b5_o1px"></path>
+                <path d="M12 10V2" data-oid="kui4y_g"></path>
                 <path
                   d="M18.4 14.2a6.5 6.5 0 0 0-8.8-8.8"
-                  data-oid="po58dkg"
+                  data-oid="h1lc078"
                 ></path>
                 <path
                   d="M22 16.92v.52a5 5 0 0 1-5 5 4.9 4.9 0 0 1-4.5-2.97 5 5 0 0 1 10-1.48"
-                  data-oid="hecqama"
+                  data-oid="b9le_im"
                 ></path>
               </svg>
             </div>
-            <h3 className="text-xl font-semibold mb-2" data-oid="pejzcbf">
+            <h3 className="text-xl font-semibold mb-2" data-oid="7dhog-v">
               Support Local Economy
             </h3>
-            <p className="text-muted-foreground text-sm" data-oid="4fnkkjf">
+            <p className="text-muted-foreground text-sm" data-oid="6z:y8w6">
               Your purchases directly support Canadian farmers, producers, and
               communities.
             </p>
           </div>
           <div
             className="bg-forest/5 rounded-xl p-6 flex flex-col items-center text-center"
-            data-oid="6cv-5nw"
+            data-oid="ufbqqqp"
           >
             <div
               className="h-12 w-12 bg-forest/10 rounded-full flex items-center justify-center mb-4"
-              data-oid="pxqrj34"
+              data-oid="ts.9jwq"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -81,29 +81,29 @@ const Index = () => {
                 strokeLinecap="round"
                 strokeLinejoin="round"
                 className="text-forest"
-                data-oid="w9.mxfq"
+                data-oid="83se-7g"
               >
                 <path
                   d="M19.439 7.85c-.049.322.059.648.289.878l1.568 1.568c.47.47.706 1.087.706 1.704s-.235 1.233-.706 1.704l-1.611 1.611a.98.98 0 0 1-.837.276c-.47-.07-.802-.48-.968-.925a2.501 2.501 0 1 0-3.214 3.214c.446.166.855.497.925.968a.979.979 0 0 1-.276.837l-1.61 1.61a2.404 2.404 0 0 1-1.705.707 2.402 2.402 0 0 1-1.704-.706l-1.568-1.568a1.026 1.026 0 0 0-.877-.29c-.493.074-.84.504-1.02.968a2.5 2.5 0 1 1-3.237-3.237c.464-.18.894-.527.967-1.02a1.026 1.026 0 0 0-.289-.877l-1.568-1.568A2.402 2.402 0 0 1 1.998 12c0-.617.236-1.234.706-1.704L4.23 8.77c.24-.24.581-.353.917-.303.515.077.877.528 1.073 1.01a2.5 2.5 0 1 0 3.259-3.259c-.482-.196-.933-.558-1.01-1.073-.05-.336.062-.676.303-.917l1.525-1.525A2.402 2.402 0 0 1 12 1.998c.617 0 1.234.236 1.704.706l1.568 1.568c.23.23.556.338.877.29.493-.074.84-.504 1.02-.968a2.5 2.5 0 1 1 3.237 3.237c-.464.18-.894.527-.967 1.02Z"
-                  data-oid="3:-b665"
+                  data-oid="l5e2inu"
                 ></path>
               </svg>
             </div>
-            <h3 className="text-xl font-semibold mb-2" data-oid="-nrdv_4">
+            <h3 className="text-xl font-semibold mb-2" data-oid="jlpanm_">
               Fresh & Seasonal
             </h3>
-            <p className="text-muted-foreground text-sm" data-oid="cetia6:">
+            <p className="text-muted-foreground text-sm" data-oid="_ttcwoz">
               We offer fresh, seasonal products with shorter supply chains for
               maximum freshness.
             </p>
           </div>
           <div
             className="bg-forest/5 rounded-xl p-6 flex flex-col items-center text-center"
-            data-oid="8ijk6sj"
+            data-oid="ucwg.jk"
           >
             <div
               className="h-12 w-12 bg-forest/10 rounded-full flex items-center justify-center mb-4"
-              data-oid="8fe2:rf"
+              data-oid="l1hwy1b"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -116,25 +116,25 @@ const Index = () => {
                 strokeLinecap="round"
                 strokeLinejoin="round"
                 className="text-forest"
-                data-oid="9klxq34"
+                data-oid="65sxz9k"
               >
                 <path
                   d="M18 8a3 3 0 1 0 0 6 3 3 0 0 0 0-6Z"
-                  data-oid="hsj7x22"
+                  data-oid="3_4z6m3"
                 ></path>
-                <path d="M3 12a9 3 0 0 0 9 3H14" data-oid="0ukbfe3"></path>
-                <path d="M4 9h1" data-oid="23o8y4p"></path>
-                <path d="M4 15h1" data-oid="x9536yx"></path>
-                <path d="M9 3v3" data-oid="5srl24n"></path>
-                <path d="M13 3v3" data-oid="r1uy2ao"></path>
-                <path d="M12 21v-3" data-oid="_8jgqy4"></path>
-                <path d="M8 21v-3" data-oid="hy27ow:"></path>
+                <path d="M3 12a9 3 0 0 0 9 3H14" data-oid="r8jp4pi"></path>
+                <path d="M4 9h1" data-oid="bj_e26a"></path>
+                <path d="M4 15h1" data-oid="afy_ufj"></path>
+                <path d="M9 3v3" data-oid="14e0otd"></path>
+                <path d="M13 3v3" data-oid=".de4cxa"></path>
+                <path d="M12 21v-3" data-oid="qdumglb"></path>
+                <path d="M8 21v-3" data-oid="1gaxpfj"></path>
               </svg>
             </div>
-            <h3 className="text-xl font-semibold mb-2" data-oid="t5ot1ap">
+            <h3 className="text-xl font-semibold mb-2" data-oid="q8o4lve">
               Sustainable Choices
             </h3>
-            <p className="text-muted-foreground text-sm" data-oid="6j-obd-">
+            <p className="text-muted-foreground text-sm" data-oid="-3ui21w">
               Choose eco-friendly options that help reduce carbon footprint and
               support sustainable practices.
             </p>

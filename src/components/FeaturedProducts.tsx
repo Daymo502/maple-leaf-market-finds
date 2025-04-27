@@ -45,40 +45,40 @@ const FeaturedProducts = () => {
   const [products, setProducts] = useState(mockProducts);
 
   return (
-    <section className="py-12" data-oid="ijhwu31">
-      <div className="container mx-auto px-4" data-oid="4cdo3vo">
+    <section className="py-12" data-oid="3.uf890">
+      <div className="container mx-auto px-4" data-oid="tyhda3h">
         <div
           className="flex justify-between items-center mb-8"
-          data-oid="ajg-6kn"
+          data-oid="9bw0r45"
         >
-          <h2 className="text-2xl md:text-3xl font-bold" data-oid="afyt5mr">
+          <h2 className="text-2xl md:text-3xl font-bold" data-oid="wm3__dq">
             Featured Products
           </h2>
-          <div className="text-sm" data-oid="s3zkd12">
-            <span className="text-muted-foreground mr-2" data-oid="-j-:654">
+          <div className="text-sm" data-oid="x1rd325">
+            <span className="text-muted-foreground mr-2" data-oid="wmxd5dz">
               Look for the{" "}
             </span>
             <div
               className="inline-flex items-center justify-center gap-1 bg-accent/10 text-accent px-2 py-1 rounded-full text-xs"
-              data-oid=":cun80j"
+              data-oid="9t8d2i7"
             >
               <div
                 className="inline-block w-3 h-3 bg-accent rounded-sm rotate-45 transform"
-                data-oid="3_x8q84"
+                data-oid="u076ofm"
               ></div>
-              <span data-oid="k4hph3x">Made in Canada</span>
+              <span data-oid="41yyaku">Made in Canada</span>
             </div>
-            <span className="text-muted-foreground ml-2" data-oid="iwkb5zr">
+            <span className="text-muted-foreground ml-2" data-oid="pok.a6r">
               badge
             </span>
           </div>
         </div>
         <div
           className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6"
-          data-oid="9q7hv.w"
+          data-oid="baf12fs"
         >
           {products.map((product) => (
-            <ProductCard key={product.id} {...product} data-oid="l44_a6:" />
+            <ProductCard key={product.id} {...product} data-oid=":qz7l.-" />
           ))}
         </div>
       </div>

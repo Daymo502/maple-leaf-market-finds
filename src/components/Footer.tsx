@@ -2,88 +2,88 @@ import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <footer className="bg-muted py-12" data-oid="8lvd._.">
-      <div className="container mx-auto px-4" data-oid="cuywbxh">
+    <footer className="bg-muted py-12" data-oid="h22ehbv">
+      <div className="container mx-auto px-4" data-oid="vf3jnw-">
         <div
           className="grid grid-cols-1 md:grid-cols-4 gap-8"
-          data-oid="w88fvw-"
+          data-oid="08cmtx8"
         >
-          <div data-oid="v7lg2xl">
+          <div data-oid="1vgnlur">
             <Link
               to="/"
               className="flex items-center gap-2 mb-4"
-              data-oid="8axwzih"
+              data-oid="khioqz6"
             >
-              <div className="relative w-6 h-6" data-oid="xi0600t">
+              <div className="relative w-6 h-6" data-oid="a9cx0mf">
                 <div
                   className="absolute inset-0 bg-forest rounded-full flex items-center justify-center"
-                  data-oid="1ne1hdv"
+                  data-oid="w24jn74"
                 >
                   <div
                     className="w-3 h-3 bg-maple rounded-sm rotate-45 transform"
-                    data-oid="ubk87m5"
+                    data-oid="_o0-fh4"
                   ></div>
                 </div>
               </div>
               <span
                 className="font-display font-bold text-lg"
-                data-oid="v4d:pxl"
+                data-oid="nkj.-x:"
               >
                 Maple Leaf Market
               </span>
             </Link>
-            <p className="text-sm text-muted-foreground" data-oid="9y.whmw">
+            <p className="text-sm text-muted-foreground" data-oid="rwez-gu">
               Your source for fresh, local Canadian products delivered right to
               your door.
             </p>
           </div>
 
-          <div data-oid="z1c161-">
-            <h3 className="font-semibold mb-4" data-oid=".ui:.96">
+          <div data-oid="7lfpo-1">
+            <h3 className="font-semibold mb-4" data-oid="hoa7fw3">
               Shop
             </h3>
-            <ul className="space-y-2 text-sm" data-oid="ln138ws">
-              <li data-oid="_npj3t4">
+            <ul className="space-y-2 text-sm" data-oid="0ykloju">
+              <li data-oid="2yw7hp3">
                 <Link
                   to="/all-products"
                   className="hover:text-forest"
-                  data-oid="4v_n:6-"
+                  data-oid="xnqfrdz"
                 >
                   All Products
                 </Link>
               </li>
-              <li data-oid="-u_n0g4">
+              <li data-oid="5q6pj8t">
                 <Link
                   to="/canadian-products"
                   className="hover:text-forest"
-                  data-oid="1rr466i"
+                  data-oid="dk1ysbs"
                 >
                   Canadian Products
                 </Link>
               </li>
-              <li data-oid="m8kmxwb">
+              <li data-oid="p:7owkp">
                 <Link
                   to="/category/produce"
                   className="hover:text-forest"
-                  data-oid="nf6:_:x"
+                  data-oid="k.19eiz"
                 >
                   Fresh Produce
                 </Link>
               </li>
-              <li data-oid="ni2k..1">
+              <li data-oid="scq-9nn">
                 <Link
                   to="/category/dairy"
                   className="hover:text-forest"
-                  data-oid="019wc5a"
+                  data-oid="t6nq_g."
                 >
                   Dairy
                 </Link>
               </li>
-              <li data-oid="ewe7:w8">
+              <li data-oid="9lh5p_p">
                 <Link
                   to="/category/bakery"
                   className="hover:text-forest"
-                  data-oid="bv-qy52"
+                  data-oid="p1a6z7a"
                 >
                   Bakery
                 </Link>
@@ -91,43 +91,43 @@ const Footer = () => {
             </ul>
           </div>
 
-          <div data-oid="_t0o-35">
-            <h3 className="font-semibold mb-4" data-oid="h.0fnt1">
+          <div data-oid="y2sz150">
+            <h3 className="font-semibold mb-4" data-oid=".ooojfr">
               About
             </h3>
-            <ul className="space-y-2 text-sm" data-oid="pz76jx9">
-              <li data-oid="k2.ozxm">
+            <ul className="space-y-2 text-sm" data-oid="tid5vtk">
+              <li data-oid="bcyr5o2">
                 <Link
                   to="/about"
                   className="hover:text-forest"
-                  data-oid="656ao.m"
+                  data-oid="fbv:-7u"
                 >
                   Our Story
                 </Link>
               </li>
-              <li data-oid="pgiw-l:">
+              <li data-oid="3:zf.si">
                 <Link
                   to="/local-producers"
                   className="hover:text-forest"
-                  data-oid="p62j1:c"
+                  data-oid="g_5w9ar"
                 >
                   Meet Our Producers
                 </Link>
               </li>
-              <li data-oid="i0tqv_z">
+              <li data-oid="umog.qn">
                 <Link
                   to="/sustainability"
                   className="hover:text-forest"
-                  data-oid="x3k2h:o"
+                  data-oid="uim4:hg"
                 >
                   Sustainability Commitment
                 </Link>
               </li>
-              <li data-oid=":t97_ea">
+              <li data-oid="p-1dv.s">
                 <Link
                   to="/careers"
                   className="hover:text-forest"
-                  data-oid="od4e7-o"
+                  data-oid="xb4lioy"
                 >
                   Careers
                 </Link>
@@ -135,43 +135,43 @@ const Footer = () => {
             </ul>
           </div>
 
-          <div data-oid="soprhjb">
-            <h3 className="font-semibold mb-4" data-oid="ot-m:ye">
+          <div data-oid="u95yy78">
+            <h3 className="font-semibold mb-4" data-oid="5rm_we-">
               Customer Service
             </h3>
-            <ul className="space-y-2 text-sm" data-oid="j6xs747">
-              <li data-oid="2q3jz2m">
+            <ul className="space-y-2 text-sm" data-oid="-udm8m_">
+              <li data-oid="vx7ijb6">
                 <Link
                   to="/contact"
                   className="hover:text-forest"
-                  data-oid="kg10clq"
+                  data-oid=":eksh6t"
                 >
                   Contact Us
                 </Link>
               </li>
-              <li data-oid=":.3r:ff">
+              <li data-oid="mbw:0u2">
                 <Link
                   to="/faq"
                   className="hover:text-forest"
-                  data-oid="z.0.ubs"
+                  data-oid=".nmmf9t"
                 >
                   FAQs
                 </Link>
               </li>
-              <li data-oid="1ri..mo">
+              <li data-oid="ct074f_">
                 <Link
                   to="/shipping"
                   className="hover:text-forest"
-                  data-oid="c4zsvfw"
+                  data-oid="4.w794p"
                 >
                   Shipping Policy
                 </Link>
               </li>
-              <li data-oid="ots:j68">
+              <li data-oid=".dd81he">
                 <Link
                   to="/returns"
                   className="hover:text-forest"
-                  data-oid="c__ojrn"
+                  data-oid="a_he_ce"
                 >
                   Returns & Refunds
                 </Link>
@@ -180,27 +180,27 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="mt-8 pt-8 border-t border-border" data-oid="br3bt7k">
+        <div className="mt-8 pt-8 border-t border-border" data-oid="y_nlepn">
           <div
             className="flex flex-col md:flex-row justify-between items-center gap-4"
-            data-oid="nj464f2"
+            data-oid="f:j8jnp"
           >
-            <p className="text-sm text-muted-foreground" data-oid="_ki9c.e">
+            <p className="text-sm text-muted-foreground" data-oid="1-e0i6m">
               &copy; {new Date().getFullYear()} Maple Leaf Market. All rights
               reserved.
             </p>
-            <div className="flex items-center gap-6" data-oid="ewuhquu">
+            <div className="flex items-center gap-6" data-oid="oi5484g">
               <Link
                 to="/privacy"
                 className="text-sm text-muted-foreground hover:text-forest"
-                data-oid="ozi-m5s"
+                data-oid="gaps68o"
               >
                 Privacy Policy
               </Link>
               <Link
                 to="/terms"
                 className="text-sm text-muted-foreground hover:text-forest"
-                data-oid="82i81._"
+                data-oid="h3n.d0-"
               >
                 Terms of Service
               </Link>

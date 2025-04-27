@@ -37,14 +37,14 @@ const categories = [
 
 const CategoryGrid = () => {
   return (
-    <section className="py-12" data-oid="d7aflkw">
-      <div className="container mx-auto px-4" data-oid="dj2v83l">
-        <h2 className="text-2xl md:text-3xl font-bold mb-8" data-oid="z-tf.t6">
+    <section className="py-12" data-oid="yfayr64">
+      <div className="container mx-auto px-4" data-oid="ipd9qo8">
+        <h2 className="text-2xl md:text-3xl font-bold mb-8" data-oid="vo1f5._">
           Shop by Category
         </h2>
         <div
           className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4"
-          data-oid="9m6hnos"
+          data-oid="rbb7rxs"
         >
           {categories.map((category, index) => (
             <motion.div
@@ -52,35 +52,35 @@ const CategoryGrid = () => {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: index * 0.1 }}
-              data-oid="5v70nfw"
+              data-oid="mimopo."
             >
               <Link
                 to={`/category/${category.id}`}
                 className="block h-full"
-                data-oid="jm.0rrh"
+                data-oid="0p428lg"
               >
                 <div
                   className="product-card h-full flex flex-col overflow-hidden"
-                  data-oid="1n9qh5d"
+                  data-oid="_3fn27b"
                 >
                   <div
                     className="aspect-square overflow-hidden"
-                    data-oid="zexcgry"
+                    data-oid="73mi5or"
                   >
                     <img
                       src={category.image}
                       alt={category.name}
                       className="h-full w-full object-cover transition-transform duration-300 hover:scale-105"
-                      data-oid=":258rp-"
+                      data-oid="29u0640"
                     />
                   </div>
-                  <div className="p-4 text-center" data-oid=":p-.jn3">
-                    <h3 className="font-semibold" data-oid="k:sacp8">
+                  <div className="p-4 text-center" data-oid="vvwh_xp">
+                    <h3 className="font-semibold" data-oid="qg7efgk">
                       {category.name}
                     </h3>
                     <p
                       className="text-sm text-muted-foreground mt-1 hidden md:block"
-                      data-oid="_271xsm"
+                      data-oid="nda1fc_"
                     >
                       {category.description}
                     </p>

@@ -37,26 +37,26 @@ const CategoryFilter = ({
   return (
     <>
       {/* Mobile Filter */}
-      <div className="md:hidden" data-oid="ku19vs7">
-        <Drawer open={isOpen} onOpenChange={setIsOpen} data-oid="bf.npqx">
-          <DrawerTrigger asChild data-oid="6javikm">
+      <div className="md:hidden" data-oid="bdhp6ws">
+        <Drawer open={isOpen} onOpenChange={setIsOpen} data-oid="vj05wo0">
+          <DrawerTrigger asChild data-oid="i8-0x4b">
             <Button
               variant="outline"
               size="sm"
               className="gap-2"
-              data-oid="w7pezav"
+              data-oid="vp_r843"
             >
-              <Filter className="h-4 w-4" data-oid="p6w.v__" />
+              <Filter className="h-4 w-4" data-oid="iipjrc3" />
               Filters
             </Button>
           </DrawerTrigger>
-          <DrawerContent data-oid="d0xqqsy">
-            <div className="p-4 space-y-6" data-oid="5-vbf4u">
-              <div data-oid="m6y4t6j">
-                <h3 className="font-semibold mb-3" data-oid="z8o1uga">
+          <DrawerContent data-oid="k04kfqd">
+            <div className="p-4 space-y-6" data-oid="twphpl.">
+              <div data-oid="6j1m-t.">
+                <h3 className="font-semibold mb-3" data-oid="-6o3hfk">
                   Categories
                 </h3>
-                <div className="space-y-2" data-oid="k5orp43">
+                <div className="space-y-2" data-oid="sqelz29">
                   {categories.map((category) => (
                     <Button
                       key={category.id}
@@ -66,10 +66,10 @@ const CategoryFilter = ({
                         selectedCategory === category.id && "bg-muted",
                       )}
                       onClick={() => handleCategoryClick(category.id)}
-                      data-oid="9sdr268"
+                      data-oid=":7kbv6n"
                     >
                       {selectedCategory === category.id && (
-                        <Check className="mr-2 h-4 w-4" data-oid="wwb1e06" />
+                        <Check className="mr-2 h-4 w-4" data-oid="3evrymc" />
                       )}
                       {category.name}
                     </Button>
@@ -77,22 +77,22 @@ const CategoryFilter = ({
                 </div>
               </div>
 
-              <div data-oid="lz1e4ka">
-                <h3 className="font-semibold mb-3" data-oid=".14buo6">
+              <div data-oid="rdpc3.n">
+                <h3 className="font-semibold mb-3" data-oid="x8csd72">
                   Origin
                 </h3>
                 <div
                   className="flex items-center justify-between"
-                  data-oid="nr_eyig"
+                  data-oid="ix_91on"
                 >
                   <label
                     htmlFor="canadian-mobile"
                     className="text-sm flex items-center gap-2"
-                    data-oid=".jikili"
+                    data-oid="tslwjq5"
                   >
                     <div
                       className="w-4 h-4 bg-accent rounded-sm rotate-45 transform"
-                      data-oid="2wdvxl-"
+                      data-oid="41zqfri"
                     ></div>
                     Show Canadian products only
                   </label>
@@ -100,7 +100,7 @@ const CategoryFilter = ({
                     id="canadian-mobile"
                     checked={canadianOnly}
                     onCheckedChange={onCanadianOnlyChange}
-                    data-oid="xcbvlsb"
+                    data-oid="_lr07tu"
                   />
                 </div>
               </div>
@@ -110,12 +110,12 @@ const CategoryFilter = ({
       </div>
 
       {/* Desktop Filter */}
-      <div className="hidden md:block space-y-6" data-oid="5cofrnz">
-        <div data-oid=":60-8c.">
-          <h3 className="font-semibold mb-3" data-oid="dp7h6t9">
+      <div className="hidden md:block space-y-6" data-oid="u6rxq95">
+        <div data-oid=".h413gz">
+          <h3 className="font-semibold mb-3" data-oid="9s1q:k4">
             Categories
           </h3>
-          <div className="space-y-1" data-oid="eg6nnq3">
+          <div className="space-y-1" data-oid="x1rhbno">
             {categories.map((category) => (
               <Button
                 key={category.id}
@@ -125,7 +125,7 @@ const CategoryFilter = ({
                   selectedCategory === category.id && "bg-muted font-medium",
                 )}
                 onClick={() => onCategoryChange(category.id)}
-                data-oid="pisqf0x"
+                data-oid="qypkuc:"
               >
                 {category.name}
               </Button>
@@ -133,26 +133,26 @@ const CategoryFilter = ({
           </div>
         </div>
 
-        <div data-oid="7i72lh0">
-          <h3 className="font-semibold mb-3" data-oid="2709eim">
+        <div data-oid="5lsa1j0">
+          <h3 className="font-semibold mb-3" data-oid="ogvnk7r">
             Origin
           </h3>
-          <div className="flex items-center gap-2" data-oid="ts.iyws">
+          <div className="flex items-center gap-2" data-oid="oncglpq">
             <Switch
               id="canadian"
               checked={canadianOnly}
               onCheckedChange={onCanadianOnlyChange}
-              data-oid="n01h3hk"
+              data-oid="dyb3-us"
             />
 
             <label
               htmlFor="canadian"
               className="text-sm flex items-center gap-2 cursor-pointer"
-              data-oid="grx.rzm"
+              data-oid="3lmlmvn"
             >
               <div
                 className="w-3 h-3 bg-accent rounded-sm rotate-45 transform"
-                data-oid="l10w.37"
+                data-oid="pj8zkft"
               ></div>
               Show Canadian products only
             </label>
