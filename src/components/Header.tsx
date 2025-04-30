@@ -1,15 +1,17 @@
 
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import { Search, ShoppingCart, Menu } from "lucide-react";
+import { Search, ShoppingCart, Menu, Heart } from "lucide-react";
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { cn } from "@/lib/utils";
+import { useWishlist } from "@/contexts/WishlistContext";
 
 const Header = () => {
   const [searchValue, setSearchValue] = useState("");
   const cartItemCount = 0; // This would be connected to your cart state
+  const { wishlist } = useWishlist();
 
   return (
     <header className="sticky top-0 z-50 w-full bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 border-b">
@@ -28,6 +30,7 @@ const Header = () => {
                   <Link to="/" className="text-lg font-semibold">Home</Link>
                   <Link to="/all-products" className="text-lg font-semibold">All Products</Link>
                   <Link to="/canadian-products" className="text-lg font-semibold text-accent">Canadian Products</Link>
+                  <Link to="/wishlist" className="text-lg font-semibold">My Wishlist</Link>
                   <div className="grid gap-1">
                     <h3 className="font-semibold">Categories</h3>
                     <Link to="/category/produce" className="text-sm">Produce</Link>
@@ -54,6 +57,7 @@ const Header = () => {
           <Link to="/" className="font-medium hover:text-forest">Home</Link>
           <Link to="/all-products" className="font-medium hover:text-forest">All Products</Link>
           <Link to="/canadian-products" className="font-medium text-accent hover:text-accent/80">Canadian Products</Link>
+          <Link to="/wishlist" className="font-medium hover:text-forest">Wishlist</Link>
         </div>
 
         <div className="flex items-center gap-4">
@@ -72,6 +76,18 @@ const Header = () => {
             <Search className="h-5 w-5" />
             <span className="sr-only">Search</span>
           </Button>
+          
+          <Link to="/wishlist">
+            <Button variant="ghost" size="icon" className="relative">
+              <Heart className="h-5 w-5" />
+              {wishlist.length > 0 && (
+                <span className="absolute -top-1 -right-1 h-4 w-4 text-xs flex items-center justify-center bg-accent text-white rounded-full">
+                  {wishlist.length}
+                </span>
+              )}
+              <span className="sr-only">Wishlist</span>
+            </Button>
+          </Link>
           
           <Link to="/cart">
             <Button variant="ghost" size="icon" className="relative">

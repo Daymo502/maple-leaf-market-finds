@@ -4,8 +4,9 @@ import { motion } from "framer-motion";
 import { cn } from "@/lib/utils";
 import CanadianBadge from "./CanadianBadge";
 import { Button } from "@/components/ui/button";
-import { ShoppingCart } from "lucide-react";
+import { Heart, ShoppingCart } from "lucide-react";
 import { toast } from "sonner";
+import { useWishlist } from "@/contexts/WishlistContext";
 
 interface ProductCardProps {
   id: string;
@@ -26,6 +27,9 @@ const ProductCard = ({
   category,
   weight,
 }: ProductCardProps) => {
+  const { addToWishlist, removeFromWishlist, isInWishlist } = useWishlist();
+  const inWishlist = isInWishlist(id);
+
   const handleAddToCart = (e: React.MouseEvent) => {
     e.preventDefault();
     e.stopPropagation();
@@ -33,6 +37,25 @@ const ProductCard = ({
     toast.success(`${name} added to your cart`, {
       description: "Go to cart to complete your purchase",
     });
+  };
+
+  const handleWishlistToggle = (e: React.MouseEvent) => {
+    e.preventDefault();
+    e.stopPropagation();
+    
+    if (inWishlist) {
+      removeFromWishlist(id);
+    } else {
+      addToWishlist({
+        id,
+        name,
+        price,
+        image,
+        isCanadian,
+        category,
+        weight,
+      });
+    }
   };
 
   return (
@@ -63,15 +86,28 @@ const ProductCard = ({
             </div>
             <div className="flex items-center justify-between mt-auto pt-2">
               <p className="font-semibold">${price.toFixed(2)}</p>
-              <Button 
-                size="sm" 
-                variant="ghost"
-                className="rounded-full h-8 w-8 p-0"
-                onClick={handleAddToCart}
-              >
-                <ShoppingCart className="h-4 w-4" />
-                <span className="sr-only">Add to cart</span>
-              </Button>
+              <div className="flex items-center gap-2">
+                <Button 
+                  size="sm" 
+                  variant="ghost"
+                  className={cn("rounded-full h-8 w-8 p-0", inWishlist ? "text-accent" : "")}
+                  onClick={handleWishlistToggle}
+                >
+                  <Heart className={cn("h-4 w-4", inWishlist ? "fill-current" : "")} />
+                  <span className="sr-only">
+                    {inWishlist ? "Remove from wishlist" : "Add to wishlist"}
+                  </span>
+                </Button>
+                <Button 
+                  size="sm" 
+                  variant="ghost"
+                  className="rounded-full h-8 w-8 p-0"
+                  onClick={handleAddToCart}
+                >
+                  <ShoppingCart className="h-4 w-4" />
+                  <span className="sr-only">Add to cart</span>
+                </Button>
+              </div>
             </div>
           </div>
         </div>
